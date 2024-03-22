@@ -9,13 +9,25 @@ html {
 }
 
 .page {
+  display: flex;
   inline-size: 1200px;
-  max-height: 800px;
+  height: 800px;
   margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 534px;
+  width: 1140px;
+  margin: auto;
 }
 
 h1,
@@ -45,17 +57,6 @@ ol {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   white-space: nowrap;
-}
-
-.content {
-  display: flex;
-  flex-direction: row;
-  column-gap: 30px;
-  align-items: flex-end;
-  justify-content: space-between;
-  height: 534px;
-  width: 1140px;
-  margin: 133px 33px;
 }
 
 .content__details {
